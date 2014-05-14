@@ -2,6 +2,8 @@
 
 module Wiselinks
   module Version
+    VERSION = "1.2.2.artirix01"
+
     MAJOR = 1
     MINOR = 2
     PATCH = 2
