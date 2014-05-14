@@ -10,7 +10,7 @@ GIT
 PATH
   remote: .
   specs:
-    wiselinks (1.2.2.artirix01)
+    wiselinks (1.2.2.artirix02)
 
 GEM
   remote: https://rubygems.org/
