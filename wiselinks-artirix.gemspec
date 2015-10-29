@@ -5,12 +5,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'wiselinks/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = 'wiselinks'
+  gem.name          = 'wiselinks-artirix'
   gem.version       = Wiselinks::Version::STRING
   gem.authors       = ['Igor Alexandrov', 'Alexey Solilin', 'Julia Egorova', 'Alexandr Borisov']
   gem.email         = 'igor.alexandrov@gmail.com'
-  gem.summary       = 'Wiselinks makes following links and submitting some forms in your web application smarter and faster'
-  gem.homepage      = 'http://github.com/igor-alexandrov/wiselinks'
+  gem.summary       = 'Artirix Fork of Wiselinks; Wiselinks makes following links and submitting some forms in your web application smarter and faster'
+  gem.homepage      = 'http://github.com/artirix/wiselinks'
   gem.licenses      = ['MIT']
 
   gem.files         = `git ls-files | grep -v 'build/*'`.split($/)
@@ -27,7 +27,6 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'rake'
   gem.add_development_dependency 'bundler'
   gem.add_development_dependency 'sqlite3'
-  gem.add_development_dependency 'rspec'
   gem.add_development_dependency 'rspec-rails'
   gem.add_development_dependency 'factory_girl'
   gem.add_development_dependency 'faker'
